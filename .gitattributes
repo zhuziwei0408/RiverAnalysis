@@ -15,6 +15,6 @@ bazel-0.15.1/* filter=lfs diff=lfs merge=lfs -text
 *.txt -filter -diff -merge
 
 # 忽略第三方库文件
-libtensorflow/* linguist-vendored
-ENet/* linguist-vendored
-bazel-0.15.1/* linguist-vendored
+libtensorflow/** linguist-vendored
+ENet/** linguist-vendored
+bazel-0.15.1/** linguist-vendored
