@@ -1,0 +1,1 @@
+python compute_bn_statistics.py /home/passwd123/zhu/ENet/out/enet_train_encoder_decoder_v1.prototxt /home/passwd123/zhu/ENet/weights/snapshots_decoder/enet/_iter_10000.caffemodel /home/passwd123/zhu/ENet/weights/weights_bn

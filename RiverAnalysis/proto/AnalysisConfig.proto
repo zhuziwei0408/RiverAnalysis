@@ -1,0 +1,61 @@
+syntax = "proto2";
+
+message ConfigList {
+    required string model_path = 1;
+    repeated string configs = 2;
+}
+
+message AnalysisRect {
+    required uint32 x = 1;
+    required uint32 y = 2;
+    required uint32 width = 3;
+    required uint32 height = 4;
+}
+
+enum AlgorithmType {
+   SEGMANTIC = 0;      // 分割
+   WATERGAUGE = 1;     // 水尺
+   WATERCOLOR = 2;     // 水色
+   INVADE = 3;         // 入侵
+   FLOATER = 4;        // 漂浮物
+   FISHING = 5;        // 钓鱼
+   LITTER = 6;         // 倾倒垃圾
+   SWIMING = 7;        // 游泳
+}
+
+
+message AlgorithmConfig {
+
+    required AlgorithmType algorithm_type = 1;
+    required uint32 detect_interval = 2;
+    optional float water_gauge_length = 3;
+    optional bool display = 4;
+    repeated AnalysisRect roi_rects = 5;
+}
+
+message AnalysisConfig {
+    required string video_id = 1;
+    required string input_url = 2;
+    required string output_url = 3;
+    required string ttc_path = 4;
+    required string send_url = 5;
+    required uint32 detect_interval = 6;
+    optional bool display = 7;
+    optional bool open_modeling = 8;
+
+    repeated AlgorithmConfig algorithms = 9;
+}
+
+message AnalysisAlarm {
+    required bool is_active = 1;
+    required AlgorithmType scene_type = 2;
+    
+    optional string water_color = 3;
+    
+    optional float floater_area = 4;
+    optional float floater_speed = 5;
+
+    optional float water_gauge_num = 6;
+
+    repeated AnalysisRect rects = 7;
+}

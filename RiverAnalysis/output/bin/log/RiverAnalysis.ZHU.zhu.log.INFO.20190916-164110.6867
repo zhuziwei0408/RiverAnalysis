@@ -1,0 +1,180 @@
+Log file created at: 2019/09/16 16:41:10
+Running on machine: ZHU
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0916 16:41:10.659579  6867 http_client.cpp:19] SendUrlhttp://110.188.70.244:5006/HZZ/api/WaterQuality/GetVideoMonitors
+I0916 16:41:11.117317  6867 AnalysisManager.cpp:84] Http_GetVideo succ
+I0916 16:41:11.123793  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.124269  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.124707  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.125167  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.125596  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.126020  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.126452  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.126885  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.127313  6867 http_client.cpp:14] SendUrlhttp://chq.xdhzz.com/HZZ/api/AI/Notice
+I0916 16:41:11.127382  6867 AnalysisManager.cpp:141] AnalysisManager LoadConfig succ
+I0916 16:41:11.127552  6884 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.127773  6886 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.127946  6885 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.128990  6888 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.129093  6890 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.129106  6889 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.129220  6891 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.129501  6892 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.130086  6887 Analysis.cpp:140] Analysis Start
+I0916 16:41:11.596577  6892 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:11.597030  6894 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:11.597151  6895 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:11.597249  6896 WaterGaugeThread.cpp:19] WaterGaugeThread start
+I0916 16:41:11.597317  6897 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:11.597648  6898 LitterThread.cpp:13] LitterThread start
+I0916 16:41:11.597764  6899 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:11.597823  6900 FishingThread.cpp:15] FishingThread start
+W0916 16:41:11.597779  6892 Analysis.cpp:176] Empty img
+W0916 16:41:11.598088  6892 Analysis.cpp:182] cap is close
+W0916 16:41:11.889392  6892 Analysis.cpp:176] Empty img
+W0916 16:41:11.889466  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.388708  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.388890  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.462524  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.462597  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.545037  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.545110  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.856586  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.856660  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.094259  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.094334  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.434408  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.434484  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.634404  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.634479  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.938427  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.938498  6892 Analysis.cpp:182] cap is close
+W0916 16:41:14.178445  6892 Analysis.cpp:176] Empty img
+W0916 16:41:14.178519  6892 Analysis.cpp:182] cap is close
+W0916 16:41:14.572417  6892 Analysis.cpp:176] Empty img
+W0916 16:41:14.572489  6892 Analysis.cpp:178] retrytime > 10
+E0916 16:41:14.572512  6892 Analysis.cpp:199] Analysis break
+I0916 16:41:14.572815  6892 Analysis.cpp:467] Analysis Algorithms stop
+I0916 16:41:14.603022  6894 TensorflowThread.cpp:132] TensorflowThread end
+I0916 16:41:29.773471  6889 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:29.773617  6906 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:29.773641  6907 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:29.773655  6909 LitterThread.cpp:13] LitterThread start
+I0916 16:41:29.773666  6908 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:29.773711  6911 FishingThread.cpp:15] FishingThread start
+I0916 16:41:29.773715  6910 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:30.239884  6887 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:30.240145  6925 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:30.240420  6926 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:30.240456  6930 FishingThread.cpp:15] FishingThread start
+I0916 16:41:30.240483  6927 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:30.240496  6928 LitterThread.cpp:13] LitterThread start
+I0916 16:41:30.241149  6929 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:30.628916  6890 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:30.629209  6938 WaterGaugeThread.cpp:19] WaterGaugeThread start
+I0916 16:41:30.629379  6937 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:30.632822  6940 LitterThread.cpp:13] LitterThread start
+I0916 16:41:30.632871  6941 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:30.632895  6942 FishingThread.cpp:15] FishingThread start
+I0916 16:41:30.637185  6939 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:30.638818  6936 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:32.350558  6885 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:32.350781  6952 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:32.350802  6951 LitterThread.cpp:13] LitterThread start
+I0916 16:41:32.350812  6948 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:32.356827  6949 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:32.356930  6950 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:32.367034  6953 FishingThread.cpp:15] FishingThread start
+I0916 16:41:32.703269  6888 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:32.707226  6960 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:32.707350  6959 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:32.708814  6963 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:32.708899  6964 FishingThread.cpp:15] FishingThread start
+I0916 16:41:32.708814  6961 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:32.708823  6962 LitterThread.cpp:13] LitterThread start
+I0916 16:41:33.374779  6884 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:33.402637  6970 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:33.404093  6973 LitterThread.cpp:13] LitterThread start
+I0916 16:41:33.416793  6975 FishingThread.cpp:15] FishingThread start
+I0916 16:41:33.416795  6972 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:33.417084  6971 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:33.437973  6974 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:33.665058  6886 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:33.673787  6981 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:33.684852  6986 FishingThread.cpp:15] FishingThread start
+I0916 16:41:33.684931  6984 LitterThread.cpp:13] LitterThread start
+I0916 16:41:33.687515  6983 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:33.694187  6985 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:33.695237  6891 Analysis.cpp:458] Analysis Algorithms start
+I0916 16:41:33.699606  6992 TensorflowThread.cpp:77] TensorflowThread start
+I0916 16:41:33.699726  6993 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:33.699759  6996 InvadeThread.cpp:27] InvadeThread start
+I0916 16:41:33.699789  6997 FishingThread.cpp:15] FishingThread start
+I0916 16:41:33.704319  6994 FloaterThread.cpp:17] FloaterThread start
+I0916 16:41:33.704380  6995 LitterThread.cpp:13] LitterThread start
+I0916 16:41:33.694211  6982 WaterColorThread.cpp:14] WaterColorThread start
+I0916 16:41:45.800300  6890 Analysis.cpp:259] 水尺检测：0.85
+I0916 16:41:45.830687  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 0 tail: 0 size: 0
+I0916 16:41:45.841603  6890 AlarmMsgQueue.cpp:55] head_next: head: 1 tail: 0 size: 1
+I0916 16:41:45.841679  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:45.841697  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 1 tail: 0 size: 1
+I0916 16:41:46.223635  6935 AlarmMsgQueue.cpp:83] tail_next: head: 1 tail: 1 size: 0
+E0916 16:41:46.754866  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:47.063285  6890 Analysis.cpp:332] 漂浮物面积: 9077流速: 0
+I0916 16:41:47.065428  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 1 tail: 1 size: 0
+I0916 16:41:47.067914  6890 AlarmMsgQueue.cpp:55] head_next: head: 2 tail: 1 size: 1
+I0916 16:41:47.067960  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:47.067978  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 2 tail: 1 size: 1
+I0916 16:41:47.285423  6890 Analysis.cpp:259] 水尺检测：0.85
+I0916 16:41:47.443470  6935 AlarmMsgQueue.cpp:83] tail_next: head: 2 tail: 2 size: 0
+E0916 16:41:47.973480  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:48.335736  6890 Analysis.cpp:259] 水尺检测：0.90
+I0916 16:41:48.337596  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 2 tail: 2 size: 0
+I0916 16:41:48.340626  6890 AlarmMsgQueue.cpp:55] head_next: head: 3 tail: 2 size: 1
+I0916 16:41:48.340692  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:48.340713  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 3 tail: 2 size: 1
+I0916 16:41:48.701179  6935 AlarmMsgQueue.cpp:83] tail_next: head: 3 tail: 3 size: 0
+I0916 16:41:49.156149  6890 Analysis.cpp:259] 水尺检测：0.95
+E0916 16:41:49.204042  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:49.918334  6890 Analysis.cpp:259] 水尺检测：0.95
+I0916 16:41:49.920059  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 3 tail: 3 size: 0
+I0916 16:41:49.922927  6890 AlarmMsgQueue.cpp:55] head_next: head: 4 tail: 3 size: 1
+I0916 16:41:49.922996  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:49.923017  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 4 tail: 3 size: 1
+I0916 16:41:50.127372  6890 Analysis.cpp:332] 漂浮物面积: 9077流速: 0
+I0916 16:41:50.200740  6935 AlarmMsgQueue.cpp:83] tail_next: head: 4 tail: 4 size: 0
+E0916 16:41:50.704260  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:50.932129  6890 Analysis.cpp:259] 水尺检测：0.95
+I0916 16:41:50.934566  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 4 tail: 4 size: 0
+I0916 16:41:50.954784  6890 AlarmMsgQueue.cpp:55] head_next: head: 5 tail: 4 size: 1
+I0916 16:41:50.954849  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:50.954864  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 5 tail: 4 size: 1
+I0916 16:41:51.312295  6935 AlarmMsgQueue.cpp:83] tail_next: head: 5 tail: 5 size: 0
+I0916 16:41:51.729372  6890 Analysis.cpp:259] 水尺检测：0.95
+E0916 16:41:51.819619  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:52.334575  6890 Analysis.cpp:259] 水尺检测：0.95
+I0916 16:41:52.353762  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 5 tail: 5 size: 0
+I0916 16:41:52.356140  6890 AlarmMsgQueue.cpp:55] head_next: head: 6 tail: 5 size: 1
+I0916 16:41:52.356212  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:52.356231  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 6 tail: 5 size: 1
+I0916 16:41:52.556454  6885 Analysis.cpp:332] 漂浮物面积: 2754流速: 0
+I0916 16:41:52.608978  6885 AlarmMsgQueue.cpp:45] get_head_to_write: head: 0 tail: 0 size: 0
+I0916 16:41:52.625180  6885 AlarmMsgQueue.cpp:55] head_next: head: 1 tail: 0 size: 1
+I0916 16:41:52.625279  6947 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:52.625298  6947 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 1 tail: 0 size: 1
+I0916 16:41:52.710500  6935 AlarmMsgQueue.cpp:83] tail_next: head: 6 tail: 6 size: 0
+I0916 16:41:53.092437  6947 AlarmMsgQueue.cpp:83] tail_next: head: 1 tail: 1 size: 0
+I0916 16:41:53.123514  6890 Analysis.cpp:259] 水尺检测：0.95
+E0916 16:41:53.236249  6935 http_client.cpp:61] Server Timeout
+I0916 16:41:53.338567  6890 Analysis.cpp:332] 漂浮物面积: 100流速: 0
+E0916 16:41:53.622694  6947 http_client.cpp:61] Server Timeout
+E0916 16:41:53.622828  6947 http_client.cpp:40] Error connecting to server, error code: -1
+I0916 16:41:53.797466  6890 Analysis.cpp:259] 水尺检测：0.95
+I0916 16:41:53.799996  6890 AlarmMsgQueue.cpp:45] get_head_to_write: head: 6 tail: 6 size: 0
+I0916 16:41:53.804438  6890 AlarmMsgQueue.cpp:55] head_next: head: 7 tail: 6 size: 1
+I0916 16:41:53.804517  6935 AlarmMsgQueue.cpp:72] status is not timeout. element_size: 1
+I0916 16:41:53.804524  6935 AlarmMsgQueue.cpp:75] get_tail_to_write: head: 7 tail: 6 size: 1
+I0916 16:41:54.143272  6935 AlarmMsgQueue.cpp:83] tail_next: head: 7 tail: 7 size: 0
+I0916 16:41:54.550825  6890 Analysis.cpp:259] 水尺检测：0.95
+E0916 16:41:54.647615  6935 http_client.cpp:61] Server Timeout

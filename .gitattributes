@@ -1,0 +1,15 @@
+
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.iso filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+
+# 跟踪特定目录
+assets/** filter=lfs diff=lfs merge=lfs -text
+libtensorflow/* filter=lfs diff=lfs merge=lfs -text
+ENet/* filter=lfs diff=lfs merge=lfs -text
+bazel-0.15.1/* filter=lfs diff=lfs merge=lfs -text
+
+# 排除某些文件
+*.txt -filter -diff -merge

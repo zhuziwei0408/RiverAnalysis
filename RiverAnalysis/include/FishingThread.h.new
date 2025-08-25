@@ -1,0 +1,36 @@
+#ifndef RIVER_ANALYSIS_FISHING_THREAD_H
+#define RIVER_ANALYSIS_FISHING_THREAD_H
+
+#include "RiverThread.h"
+#include <opencv2/opencv.hpp>
+#include<queue>
+
+class Analysis;
+class FishingThread : public RiverThread {
+public:
+    FishingThread(Analysis* analysis_manager);
+    ~FishingThread() {}
+
+    void Run();
+
+    AnalysisAlarm GetAlarm();
+    void SetAlarm(bool is_active, const std::vector<cv::Rect>& people_rect);
+private:
+	void GetEdge(cv::Mat srcImg,cv::Mat &outPutMat);
+	void GetBinWhitePoint(IplImage* inputImage, std::vector<cv::Point>& binWhitePoint, int &countPint);
+	
+	void DeleteHVLine(cv::Mat inputMat, cv::Mat& outMat);
+	void DeleteSmallArea(IplImage* inputImage, cv::Mat &outputImage);
+	void TargetDectRect(cv::Mat segmentMat, const cv::Scalar& segmentColor, std::vector<cv::Point>& targetPoint, std::vector<cv::Rect> &targetRect);
+
+	bool FishingRodEstimate(cv::Mat srcImg,cv::Mat segmentMat, std::vector<cv::Rect>& people_rect);
+	bool LineFitting(IplImage* inputImage, std::vector<cv::Point>& binWhitePoint, int sceneMold);
+	bool GetDetectRegion(cv::Mat &fishingDetectRegion, int sceneMold);
+
+private:
+    Analysis* manager;
+	std::queue<bool> q;
+	std::queue<cv::Rect> peopleRect;
+};
+
+#endif

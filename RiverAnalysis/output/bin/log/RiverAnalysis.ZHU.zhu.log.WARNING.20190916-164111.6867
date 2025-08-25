@@ -1,0 +1,37 @@
+Log file created at: 2019/09/16 16:41:11
+Running on machine: ZHU
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0916 16:41:11.597779  6892 Analysis.cpp:176] Empty img
+W0916 16:41:11.598088  6892 Analysis.cpp:182] cap is close
+W0916 16:41:11.889392  6892 Analysis.cpp:176] Empty img
+W0916 16:41:11.889466  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.388708  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.388890  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.462524  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.462597  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.545037  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.545110  6892 Analysis.cpp:182] cap is close
+W0916 16:41:12.856586  6892 Analysis.cpp:176] Empty img
+W0916 16:41:12.856660  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.094259  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.094334  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.434408  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.434484  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.634404  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.634479  6892 Analysis.cpp:182] cap is close
+W0916 16:41:13.938427  6892 Analysis.cpp:176] Empty img
+W0916 16:41:13.938498  6892 Analysis.cpp:182] cap is close
+W0916 16:41:14.178445  6892 Analysis.cpp:176] Empty img
+W0916 16:41:14.178519  6892 Analysis.cpp:182] cap is close
+W0916 16:41:14.572417  6892 Analysis.cpp:176] Empty img
+W0916 16:41:14.572489  6892 Analysis.cpp:178] retrytime > 10
+E0916 16:41:14.572512  6892 Analysis.cpp:199] Analysis break
+E0916 16:41:46.754866  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:47.973480  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:49.204042  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:50.704260  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:51.819619  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:53.236249  6935 http_client.cpp:61] Server Timeout
+E0916 16:41:53.622694  6947 http_client.cpp:61] Server Timeout
+E0916 16:41:53.622828  6947 http_client.cpp:40] Error connecting to server, error code: -1
+E0916 16:41:54.647615  6935 http_client.cpp:61] Server Timeout

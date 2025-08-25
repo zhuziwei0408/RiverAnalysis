@@ -1,0 +1,1 @@
+python BN-absorber-enet.py --model /home/passwd123/zhu/ENet/prototxts/enet_deploy_v1.prototxt --weights /home/passwd123/zhu/ENet/weights/weights_bn/weights_bn.caffemodel --out_dir /home/passwd123/zhu/ENet/final_model_weights
